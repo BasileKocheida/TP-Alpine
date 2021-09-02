@@ -1,0 +1,26 @@
+#equipement.active {
+    background-color: rgba(12, 100, 231, 0.685);
+    color: white;
+    border-radius: 5px;
+   
+}
+
+#equipement.active:after {
+  background-color: rgba(12, 100, 231, 0.685);
+  color: white;
+  border-radius: 5px;
+}
+
+.recapEquipements{
+  width: 80%;
+  height: auto;
+  margin: 5%;
+}
+
+.recapEquipements .total {
+  font-size: 50px;
+}
+
+.recapEquipements h1 {
+  margin-bottom: 5%;
+}

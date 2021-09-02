@@ -1,0 +1,197 @@
+body {
+
+}
+
+.carouselList {
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #245e97;
+
+}
+
+.carousel-inner{
+  height: 40vh;
+}
+
+.Configurateur{
+  background-color: white;
+}
+
+.image{
+  height: 100vh
+}
+
+/* HEADER */
+
+header{
+
+  background-color: rgb(48, 48, 48);
+  height: 70px;
+  padding-top: 20px;
+
+}
+
+header img{
+
+  margin: auto;
+  display: flex;
+
+}
+
+.videodiv { position:relative;
+ }
+
+.videodiv video {
+    position:relative;
+    z-index:0;
+    height: 100%;
+
+}
+
+.overlay {
+  position: relative;
+  top: -20vw;
+    z-index:1;
+  height: 0;
+  box-sizing: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.overlay h1{
+
+    color: white;
+    font-size: 5vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 3px;
+
+}
+
+.overlay p{
+
+    color: white;
+    font-size: 4vw;
+    font-family:  Helvetica, Arial, sans-serif;
+    letter-spacing: 5px;
+
+}
+
+
+
+.title-config{
+  color: white;
+  font-size: 50px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 3px;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+  margin-top: -6px;
+}
+
+/* CAROUSEL AFFICHAGE */
+
+.carousel img{
+  height: 60vh;
+  margin: -45px;
+}
+
+/* Cards */
+
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100%;
+  background-color: #245e97;
+  color: white;
+
+}
+
+.card{
+  border: none;
+  border-radius: 0px;
+}
+
+.displayCard {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.card-img, .card-img-top{
+  border-radius: 0px;
+}
+
+.oneCard{
+  margin: 1vw;
+  justify-content: center;
+ 
+}
+
+.oneCard button{
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  border: .5px solid white;
+  border-radius: 7px;
+  padding: .5rem;
+}
+
+.card-body{
+    height: auto;
+    background-color: #245e97;
+}
+
+.cardHome{
+  background-color: #245e97;
+  color: white;
+  margin: 5vh;
+}
+.tab-content{
+  background-color: #245e97;
+  width: 100%;
+}
+
+.nav-tabs .nav-link {
+  color: white;
+}
+
+/* RECAP EQUIPEMENT */
+
+.recapFinal{
+  margin-bottom: 5%;
+}
+
+.recapFinal .listEquipements{
+  list-style: url('../assets/icons8-voiture-30.png');
+}
+
+.recapFinal .listAccessoires .listStyle{
+  list-style: url('../assets/icons8-voiture-30.png');
+}
+
+.recapFinal h1, h2, h3{
+  text-align: center;
+  background-color: #245d97;
+  padding: 5%;
+  border-radius: 5px;
+  color: white;
+}
+
+/* ARIANE */
+
+.ariane{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.ariane a {
+
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
