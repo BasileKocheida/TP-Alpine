@@ -5,7 +5,7 @@ const Header = () => (
 
     <header>
 
-        <img alt='' src={process.env.PUBLIC_URL + '/AlpineCars_app-images/sources-homepage/logo/logo-white.png'}></img>
+        <img alt='' src= '/AlpineCars_app-images/sources-homepage/logo/logo-white.png'></img>
 
     </header>
 
